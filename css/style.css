@@ -1,0 +1,245 @@
+/* IPHONE */
+.iphone{
+    margin-bottom: 100px;
+}
+.iphone__image{
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+}
+.iphone__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.iphone__options{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.iphone__options div:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff; 
+    border: 2px solid #ccc; 
+}
+
+.iphone__options div:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #b49b75;
+}
+
+.iphone__options div:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #999; 
+}
+
+.iphone__options div:nth-child(4) {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #000; 
+
+}
+/* IPHONE */
+
+.card{
+    width: 400px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background: aqua;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.card__item__img{
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    left: 25%;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.card__item_user{
+    text-align: center; 
+    padding-top: 150px;   
+}
+.card__item_name{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.card__item_field{
+    color: gray;
+}
+
+.card__wrapper{
+    display: none;
+}
+.card__wrapper__item{
+    display: flex;
+    justify-content: space-between;
+}
+.card__wrapper__post{
+    text-align: center;
+}
+.card__wrapper__clr{
+    color: gray;
+}
+
+.cart__btn{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.cart__btn button:nth-child(1){
+    padding: 15px 40px 15px 40px;
+    border-radius: 12px;
+    background: hotpink;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.cart__btn button:nth-child(2){
+    padding: 15px 40px 15px 40px;
+    border-radius: 12px;
+    cursor: pointer;
+     border: 1px solid gray;    
+    
+
+}
+
+.show{
+    .iphone{
+        margin-bottom: 100px;
+    }
+    .iphone__image{
+        width: 500px;
+        height: 400px;
+        margin: 20px auto;
+    }
+    .iphone__image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .iphone__options{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+    
+    .iphone__options div:nth-child(1) {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #fff; 
+        border: 2px solid #ccc; 
+    }
+    
+    .iphone__options div:nth-child(2) {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #b49b75;
+    }
+    
+    .iphone__options div:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #999; 
+    }
+    
+    .iphone__options div:nth-child(4) {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: #000; 
+    
+    }
+    /* IPHONE */
+    
+    .card{
+        width: 400px;
+        border-radius: 15px;
+        margin: 0 auto;
+        background: aqua;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .card__item__img{
+        width: 200px;
+        position: absolute;
+        top: -50px;
+        left: 25%;
+    
+    }
+    .card img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .card__item_user{
+        text-align: center; 
+        padding-top: 150px;   
+    }
+    .card__item_name{
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    .card__item_field{
+        color: gray;
+    }
+    
+    .card__wrapper__item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card__wrapper__post{
+        text-align: center;
+    }
+    .card__wrapper__clr{
+        color: gray;
+    }
+    
+    .cart__btn{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    .cart__btn button:nth-child(1){
+        padding: 15px 40px 15px 40px;
+        border-radius: 12px;
+        background: hotpink;
+        cursor: pointer;
+        border: none;
+        color: white;
+    }
+    .cart__btn button:nth-child(2){
+        padding: 15px 40px 15px 40px;
+        border-radius: 12px;
+        cursor: pointer;
+         border: 1px solid gray;    
+        
+    
+    }
+    
+}
+
