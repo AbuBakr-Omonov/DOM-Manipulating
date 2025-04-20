@@ -5,6 +5,13 @@ function changeImage(path){
 }
 
 
-const cardEL = document.querySelector(".card")
-console.log(cardEL);
+const card = document.querySelector('.card');
+const wrapper = document.querySelector('.card__wrapper');
 
+
+
+
+
+const showFull = ()=> {
+    card.classList.toggle("show");
+}
