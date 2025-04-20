@@ -19,4 +19,17 @@ const showFull = ()=> {
 
 
 const tableEl = document.querySelector(".table tbody")
-console.log(tableEl);
+ 
+
+function add() {
+    const newRow = tableEl.insertRow();
+    newRow.innerHTML = `
+      <td>2025-04-20 12:00</td>
+      <td>200399</td>
+      <td>New Product</td>
+      <td>$123.45</td>
+      <td>1</td>
+      <td>$123.45</td>
+    `;
+  }
+
