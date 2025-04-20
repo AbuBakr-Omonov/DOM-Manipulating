@@ -5,7 +5,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.w_w{
+.iphone_w{
     height: 100vh;
     width: 100%;
     display: flex;
@@ -70,13 +70,25 @@
 /* IPHONE */
 
 
-
+.user_w{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+    9deg,
+    rgba(208, 217, 46, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 139, 69, 1) 99%
+  );
+}
 
 .card {
     width: 400px;
     border-radius: 15px;
     margin: 0 auto;
-    background: aqua;
+    background: whitesmoke;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -170,3 +182,84 @@
         gap: 20px;
     }
 }
+
+
+/* TABLE */
+.table_w{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+    9deg,
+    rgb(70, 9, 150) 0%,
+    rgb(140, 83, 204) 50%,
+    rgb(165, 126, 209) 80%
+  );
+}
+.tableBtn{
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+}
+
+.tableBtn button:nth-child(1){
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    background: dodgerblue;
+    cursor: pointer;  
+
+}
+.tableBtn button:nth-child(2){
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    background: orangered;
+    cursor: pointer;  
+
+}
+
+
+.table_container {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  max-width: 1000px;
+}
+
+.table {
+  width: 100%;
+  min-width: 800px;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 15px;
+}
+
+thead {
+  background-color: #4a00e0;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+  background-color: #e1eaff;
+}
+
+th {
+  font-weight: 600;
+}
+
+td {
+  font-size: 0.95rem;
+}
+/* TABLE */

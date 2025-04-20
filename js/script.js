@@ -5,13 +5,18 @@ function changeImage(path){
 }
 
 
-const card = document.querySelector('.card');
-const wrapper = document.querySelector('.card__wrapper');
 
 
 
-
+const card = document.querySelector(".card");
+const wrapper = document.querySelector(".card__wrapper");
 
 const showFull = ()=> {
     card.classList.toggle("show");
 }
+
+
+
+
+const tableEl = document.querySelector(".table tbody")
+console.log(tableEl);
